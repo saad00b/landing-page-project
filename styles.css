@@ -1,0 +1,72 @@
+* {
+    font-family: Roboto, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header,
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 20px 180px;  /*centers them, looking for another way*/
+    /*justify-content: center;*/
+}
+
+
+/*.header {
+    
+}*/
+.header-right {
+    display: flex;
+    gap: 20px;
+}
+.header-right a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.hero {
+    padding-top: 50px;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right: auto;
+    gap: 16px;
+}
+.hero-image {
+    width: 500px;
+}
+.hero button {
+    background-color: #3882f6;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 12px;
+    border: 0;
+    color: #f9faf8;
+}
+.main-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
