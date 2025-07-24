@@ -14,8 +14,9 @@ body {
     align-items: center;
     background-color: #1f2937;
     align-items: center;
-    padding: 20px 180px;  /*centers them, looking for another way*/
+    /*padding: 20px 180px;*/  /*centers them, looking for another way*/
     /*justify-content: center;*/
+    padding: 20px 14vw;
 }
 
 
@@ -107,3 +108,56 @@ body {
     text-align: center;
     color: #1f2937;
 }
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    /*width: 60vw;*/
+    align-items: center;
+    padding: 80px 20vw 74px;
+}
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote .author {
+    padding-top: 10px;
+    align-self: flex-end;
+    font-weight: 900;
+    color: #1f2937;
+    font-size: 20px;
+}
+
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 80px 12vw;
+    padding: 50px 8vw;  /* 12 + 8 = 20vw*/
+    border-radius: 8px;
+    /*width: 60vw;*/
+}
+.call-to-action button {
+    margin-left: auto;
+    background-color: transparent;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid #f9faf8;
+    color:#f9faf8;
+}
+.call-to-action .top {
+    font-size: 24px;
+    font-weight: 900;
+    color:#f9faf8;
+    padding-bottom: 5px;
+}
+.call-to-action .btm {
+    color: #e5e7eb;
+}
+
